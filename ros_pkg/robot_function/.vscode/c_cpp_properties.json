@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/pallavbhalla/vrep_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/pallavbhalla/vrep_ws/src/sim_ros_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

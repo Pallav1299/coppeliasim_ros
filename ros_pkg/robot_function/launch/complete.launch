@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="motion_plan" type="find_room_center.py" name="find_room_center" output="screen" />
+    <node pkg="motion_plan" type="follow_wall.py" name="wall_follower" output="screen" />
+    <node pkg="motion_plan" type="go_to_point.py" name="go_to_point" output="screen" />
+    <!-- <node pkg="motion_plan" type="master_node.py" name="master" output="screen" /> -->
+</launch>
+    
